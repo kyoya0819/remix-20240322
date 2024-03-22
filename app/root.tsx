@@ -26,9 +26,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
             <body>
                 {children}
                 <ScrollRestoration/>
-                <script
-                    src="https://challenges.cloudflare.com/turnstile/v0/api.js?"
-                />
                 <Scripts/>
             </body>
         </html>
